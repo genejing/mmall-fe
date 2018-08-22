@@ -1,0 +1,32 @@
+{
+  "name": "mmall-fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "WEBPACK_ENV=dev webpack-dev-server --line --port 8088",
+    "dist": "WEBPACK_ENV=online webpack -p"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genejing/mmall-fe.git"
+  },
+  "author": "Gene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/genejing/mmall-fe/issues"
+  },
+  "homepage": "https://github.com/genejing/mmall-fe#readme",
+  "devDependencies": {
+    "css-loader": "^0.2.4",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.11.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^2.28.0",
+    "style-loader": "^0.22.1",
+    "url-loader": "^0.6.0",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  }
+}
